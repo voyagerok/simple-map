@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95E8314F1E3E53350064E6DE /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8314E1E3E53350064E6DE /* Map.swift */; };
+		95E831511E3E53450064E6DE /* AVLTreeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E831501E3E53450064E6DE /* AVLTreeIterator.swift */; };
+		95E831531E3E53500064E6DE /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E831521E3E53500064E6DE /* AVLTree.swift */; };
 		95E84A381E3E524F002B08CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E84A371E3E524F002B08CC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		95E8314E1E3E53350064E6DE /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		95E831501E3E53450064E6DE /* AVLTreeIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLTreeIterator.swift; sourceTree = "<group>"; };
+		95E831521E3E53500064E6DE /* AVLTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		95E84A341E3E524F002B08CC /* simple-map */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "simple-map"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E84A371E3E524F002B08CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +63,9 @@
 		95E84A361E3E524F002B08CC /* simple-map */ = {
 			isa = PBXGroup;
 			children = (
+				95E831521E3E53500064E6DE /* AVLTree.swift */,
+				95E831501E3E53450064E6DE /* AVLTreeIterator.swift */,
+				95E8314E1E3E53350064E6DE /* Map.swift */,
 				95E84A371E3E524F002B08CC /* main.swift */,
 			);
 			path = "simple-map";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E831511E3E53450064E6DE /* AVLTreeIterator.swift in Sources */,
+				95E8314F1E3E53350064E6DE /* Map.swift in Sources */,
 				95E84A381E3E524F002B08CC /* main.swift in Sources */,
+				95E831531E3E53500064E6DE /* AVLTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +262,7 @@
 				95E84A3D1E3E524F002B08CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
